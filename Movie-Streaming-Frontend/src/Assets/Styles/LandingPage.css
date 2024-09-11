@@ -1,0 +1,102 @@
+.landing_banner {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+    url(../../Assets/Images/banner2.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.landing_banner_left_box img {
+  height: 400px;
+  margin: auto;
+  display: flex;
+}
+.landing_banner_left_box p {
+  color: #e2e2e2;
+  text-align: center;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.landing_banner_right_box {
+  padding: 30px 20px;
+}
+
+.landing_banner_right_box_title {
+  color: white;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.landing_banner_right_box_sub_title {
+  color: white;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 33px */
+}
+
+.landing_banner_register_btn {
+  background-color: #e50000;
+  border: none;
+  width: 200px;
+  height: 50px;
+}
+
+.landing_banner_1{
+    background-image: url(../../Assets/Images/left-black.jpg);
+    height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 50px;
+}
+
+.landing_banner_left_title{
+    color: white;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.landing_banner_left_content{
+    color: white;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 33px */
+}
+
+.landing_banner_2{
+    background-image: url(../../Assets/Images/right-black.jpg);
+    height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 30px 50px;
+
+}
+
+.landing_banner_right_title{
+    color: white;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-align: right;
+}
+
+.landing_banner_right_content{
+    color: white;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 33px */
+  text-align: right;
+}

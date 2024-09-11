@@ -1,0 +1,31 @@
+
+.genre_cards{
+    min-height: 250px;
+    background-color: #1a1a1a;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+    padding: 15px;
+    transition: transform .2s;
+}
+
+
+.genre_cards:hover{
+    transform: scale(1.03);
+}
+
+.genre_cards_img{
+    height: 200px;
+    border-radius: 15px;
+
+}
+
+.genre_cards_img img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+}
+
+

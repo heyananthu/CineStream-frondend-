@@ -1,0 +1,9 @@
+.subscription_banner{
+    height: 30vh;
+    width: 100%;
+    background-image: url(../Images/subscriptioBannerBg.png);
+    padding:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

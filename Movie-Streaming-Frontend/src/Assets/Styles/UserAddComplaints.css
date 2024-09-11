@@ -1,0 +1,32 @@
+.user_add_complaint{
+    margin-top: 8rem;
+    min-height: 90vh;
+}
+
+.user_add_complaint_title{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.user_add_complaint_sub_title{
+    color: #bcbaba;
+}
+
+.user_add_complaint_box1_img img{
+    width: 400px;
+    object-fit: cover;
+}
+
+.user_add_complaint_form{
+    min-height: 70vh;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    padding: 30px ;
+    color: #ffffff;
+}
+
+.user_reg_input_grp textarea{
+    height: auto;
+}

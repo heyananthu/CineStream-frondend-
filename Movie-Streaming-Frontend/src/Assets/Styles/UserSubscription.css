@@ -1,0 +1,30 @@
+.user_view_subscription{
+    width: 100%;
+    min-height: 80vh;
+    margin-top: 20vh;
+}
+
+.subscription_head{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.subscription_para{
+    color: #bcbaba;
+    text-align: justify;
+}
+
+.subscription_cards{
+    min-height: 40vh;
+    /* background-color: aqua; */
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+    padding: 20px;
+}
+
+.subscription_card_title{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}

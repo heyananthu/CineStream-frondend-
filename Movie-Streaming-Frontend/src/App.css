@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Manrope', sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #111;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.logo_red {
+  color: #e50000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg_red {
+  background-color: #e50000;
+  color: #ffffff;
+  padding: 10px 30px;
+}
+
+.bg_icon {
+  background-color: #111;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+link {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no-arrows::-webkit-outer-spin-button,
+.no-arrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-arrows {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 10%;
+  right: 20px;
+  transform: translateY(-10%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #e5e5e5;
+}
+
+.no_data_found {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: #ffffff;
+}
+.no_data_found_chat {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.user_profile_pic {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  /* background-color: aqua; */
+  margin-bottom: 5px;
+}
+.user_profile_pic img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.no-outline:focus,
+.no-outline:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.search_input {
+  background-color: #1a1a1a;
+  border: 1px solid rgba(128, 128, 128, 0.248);
+  /* color: #ffffff; */
+}
+
+.user_add_members {
+  min-height: 70px;
+  width: 100%;
+  background-color: #111111;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.248);
+  padding: 10px 0;
+}
+
+#intern_dropdown {
+  position: absolute;
+  left: 0;
+  right: 100%;
+  transform: translateX(-100%);
+}
+
+.discussion_closed {
+  font-size: 12px;
+  background-color: #21252994;
+  height: 20px;
+  width: 160px;
+  margin: 1rem auto;
+  text-align: center;
+  /* padding: 4px; */
+  border-radius: 8px;
+}
+
+.fs-12{
+  font-size: 12px;
+}
+
+#min-80{
+  min-height: 80vh;
+}

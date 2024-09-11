@@ -1,0 +1,76 @@
+.admin_dashboard{
+    padding: 40px 0;
+    min-height: 100vh;
+}
+
+.admin_dashboard_container{
+    padding: 35px 25px;
+    width: 100%;
+    min-height: 75vh;
+    background-color: #2A2A2A;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.admin_dashboard_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 55vh;
+    text-align: justify;
+}
+
+.admin_dashboard_head_title{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.admin_dashboard_card_container{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin_dashboard_cards_new{
+    height: 27vh;
+    width: 25%;
+    background-color: #2A2A2A ;
+    border-radius: 15px;
+    padding: 20px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.admin_dashboard_cards{
+    height: 20vh;
+    width: 25%;
+    background-color: #2A2A2A ;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.admin_dashboard_cards_icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #e50000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.admin_dashboard_cards_count p{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.admin_dashboard_cards_user_type{
+    color: #ffffff;
+    font-size: 24px;
+}

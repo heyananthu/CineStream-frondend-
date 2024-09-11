@@ -1,0 +1,66 @@
+.userVideoCards{
+    /* margin-left: 20px; */
+    /* padding: 0 100px; */
+    color: #fff;
+    border-radius: 10px;
+}
+
+.videoPosters{
+    display: flex;
+    padding: 20px 20px 20px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border-radius: 10px;
+
+}
+
+.smallPoster img{
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+
+
+}
+
+.bigPoster img{
+    border-radius: 10px;
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+
+
+}
+
+.videoPosters::-webkit-scrollbar{ 
+    display: none;
+}
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.poster:hover{
+    transform: scale(1.03);
+}
+
+.videoSmallPoster {
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+
+
+.videoSmallPoster:hover{
+    transform: scale(1.05);
+}
+
+.videoPosters a{
+    color: #fff;
+}
+

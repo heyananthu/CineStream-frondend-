@@ -1,0 +1,49 @@
+.support_view_movies{
+    color: #ffffff;
+    padding: 0 40px;
+}
+
+.support_view_movies a{
+    color: #ffffff;
+
+}
+
+.support_view_movies_cards{
+    min-height: 310px;
+    background-color: #1a1a1a;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+    padding: 15px;
+    transition: transform .2s;
+}
+
+
+.support_view_movies_cards:hover{
+    transform: scale(1.03);
+}
+
+.support_view_movies_cards_img{
+    height: 240px;
+    border-radius: 15px;
+
+}
+
+.support_view_movies_cards_img img{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+}
+
+.support_view_movies_cards_title{
+    min-height: 20px;
+    background-color: #111111;
+    margin-top: 8px;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}

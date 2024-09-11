@@ -1,0 +1,44 @@
+.support_view_movies_cards_actions{
+    /* height: 50px; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.support_view_movies_cards_actions_approval{
+    display: flex;
+}
+
+.support_view_movies_cards_actions_view{
+    height: 30px;
+    background-color: #1a1a1a;
+    width: 30%;
+    border-radius: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.support_view_movies_cards_actions_accept{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;font-size: 24px;
+}
+
+.support_view_movies_cards_actions_reject{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(229 0 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;font-size: 24px;
+}
+

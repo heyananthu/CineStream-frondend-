@@ -1,0 +1,92 @@
+.user_reg_container {
+  width: 531.66px;
+  min-height: 500px;
+  border-radius: 12.138px;
+  border: 1px solid #fff;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 40px;
+}
+
+.user_reg_container p {
+  color: #e5e5e5;
+  font-size: 35.565px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.356px;
+  text-align: center;
+}
+
+.landing_banner_left_box{
+  margin-top: 60px;
+}
+
+.user_reg_input_grp input, .user_reg_input_grp textarea, .user_reg_input_grp select {
+  width: 100%;
+  height: 40px;
+  border-radius: 7.074px;
+  border: 2.193px solid rgba(199, 199, 199, 0.43);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 15px;
+  color: #e5e5e5;
+}
+
+.user_reg_input_grp input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"] {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 15px;
+  color: #e5e5e5;
+}
+
+.user_reg_input_grp ::placeholder {
+  color: #e5e5e5;
+  opacity: 0.5;
+}
+
+.landing_banner label {
+  color: #e5e5e5;
+}
+
+.user_reg_input_grp_btn button {
+  width: 100%;
+  height: 40px;
+  border-radius: 7.074px;
+  background: var(--Linear, #f90c11);
+  box-shadow: 0px -1.57px 10.64px 0px rgba(231, 36, 38, 0.84);
+  border: none;
+}
+
+.user_reg_container h6{
+    color: rgba(199, 199, 199, 0.57);
+
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.594px;
+text-align: center;
+}
+
+.user_reg_input_grp input[type="number"]{
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 15px;
+  color: #e5e5e5;
+}
+
+.user_reg_input_grp {
+  position: relative;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-60%);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #e5e5e5;
+}
+

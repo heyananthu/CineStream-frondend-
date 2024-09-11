@@ -1,0 +1,87 @@
+.user_prefer_languages {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.956), rgba(0, 0, 0, 0)),
+                linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.774)),
+                url(../../Assets/Images/banner2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_prefer_languages_containers {
+    height: 80vh;
+    width: 70%;
+    /* background-color: aqua; */
+    padding: 20px 30px;
+}
+
+.user_prefer_languages_title{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.user_prefer_languages_container1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user_prefer_languages_card {
+    width: 30%;
+    height: 35vh;
+    background-color: black;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.user_prefer_languages_card:hover{
+    transform: scale(1.05);
+
+}
+
+.image_wrapper {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.image_wrapper img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.image_wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to top, rgba(0, 0, 0, .9), transparent); */
+    pointer-events: none; /* Ensure that the overlay does not interfere with any interactions */
+}
+
+.card_form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_form label{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.red_btn{
+  height: 40px;
+  padding: 10px 15px;
+  border-radius: 7.074px;
+  background: var(--Linear, #f90c11);
+  box-shadow: 0px -1.57px 10.64px 0px rgba(231, 36, 38, 0.84);
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+}

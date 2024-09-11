@@ -1,0 +1,41 @@
+.user_add_review{
+    width: 80%;
+    min-height: 90vh;
+    /* background-color: aqua; */
+    margin: 70px auto 0 auto;
+    padding:  40px 0;
+}
+
+.user_add_review_head p{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user_add_review_card{
+    width: 100%;
+    min-height: 30vh;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    border: 1px solid rgba(128, 128, 128, 0.248);
+    padding: 20px;
+}
+
+.user_add_review_card img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user_review textarea{
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.modal-content{
+    border: 1px solid rgba(128, 128, 128, 0.441);
+}
+
+
+  
